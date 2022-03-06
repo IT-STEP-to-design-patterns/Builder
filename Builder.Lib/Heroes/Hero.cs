@@ -1,4 +1,6 @@
-﻿using Builder.Lib.Armors;
+﻿using System.Collections.Generic;
+using Builder.Lib.Armors;
+using Builder.Lib.Inventories;
 using Builder.Lib.Weapons;
 
 namespace Builder.Lib.Heroes
@@ -14,6 +16,8 @@ namespace Builder.Lib.Heroes
         
         public Weapon Weapon { get; set; }
         public Armor Armor { get; set; }
+        
+        public List<IInventory> Inventories { get; set; }
 
         public void Attack(Hero enemy)
         {

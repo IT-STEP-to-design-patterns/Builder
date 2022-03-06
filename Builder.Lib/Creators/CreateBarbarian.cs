@@ -4,7 +4,7 @@ using Builder.Lib.Weapons;
 
 namespace Builder.Lib.Creators
 {
-    public class CreateBarbarian : IBuilder
+    public class CreateBarbarian : ICreator
     {
         public Hero Create(Armor armor, Weapon weapon)
         {

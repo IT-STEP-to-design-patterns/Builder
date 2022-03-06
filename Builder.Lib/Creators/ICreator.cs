@@ -4,7 +4,7 @@ using Builder.Lib.Weapons;
 
 namespace Builder.Lib.Creators
 {
-    public interface IBuilder
+    public interface ICreator
     {
         public Hero Create(Armor armor, Weapon weapon);
     }

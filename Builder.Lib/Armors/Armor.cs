@@ -1,6 +1,8 @@
-﻿namespace Builder.Lib.Armors
+﻿using Builder.Lib.Inventories;
+
+namespace Builder.Lib.Armors
 {
-    public abstract class Armor
+    public abstract class Armor : IInventory
     {
         private int _defense;
         public int Defense
